@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Compass AI | AI-Powered Career Planning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Hero Section -->
+
+        <div class="hero-section">
+
+            <div class="badge">
+                AI-Powered Career Planning
+            </div>
+
+            <h1>Career Compass AI</h1>
+
+            <p class="subtitle">
+                Get your personalized career progression plan with skills,
+                certifications, milestones, project recommendations and
+                actionable timelines to reach your dream role.
+            </p>
+
+        </div>
+        <!-- Form Section -->
+
+        <form id="roadmap-form">
+
+            <label>Current Academic Year</label>
+
+            <select id="year" required>
+                <option value="">Select Year</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+                <option>Passed Out</option>
+            </select>
+
+            <!-- Skills -->
+
+            <label>Skills Known</label>
+
+            <div class="skills-box">
+
+                <label class="skill-item">
+                    <input type="checkbox" value="Python">
+                    Python
+                </label>
+
+                <label class="skill-item">
+                    <input type="checkbox" value="HTML">
+                    HTML
+                </label>
+
+                <label class="skill-item">
+                    <input type="checkbox" value="CSS">
+                    CSS
+                </label>
+
+                <label class="skill-item">
+                    <input type="checkbox" value="JavaScript">
+                    JavaScript
+                </label>
+
+                <label class="skill-item">
+                    <input type="checkbox" value="C">
+                    C
+                </label>
+
+                <label class="skill-item">
+                    <input type="checkbox" value="C++">
+                    C++
+                </label>
+
+                <label class="skill-item">
+                    <input type="checkbox" value="Java">
+                    Java
+                </label>
+
+                <label class="skill-item">
+                    <input type="checkbox" value="SQL">
+                    SQL
+                </label>
+
+                <label class="skill-item">
+                    <input type="checkbox" value="Power BI">
+                    Power BI
+                </label>
+
+                <label class="skill-item">
+                    <input type="checkbox" value="Git">
+                    Git
+                </label>
+
+                <label class="skill-item">
+                    <input type="checkbox" value="React">
+                    React
+                </label>
+
+                <label class="skill-item">
+                    <input type="checkbox" value="Video Editing">
+                    Video Editing
+                </label>
+
+            </div>
+
+            <!-- Interests -->
+
+            <label>Interests</label>
+
+            <div class="interest-box">
+
+                <label class="interest-item">
+                    <input type="checkbox" value="Artificial Intelligence">
+                    AI
+                </label>
+
+                <label class="interest-item">
+                    <input type="checkbox" value="Data Science">
+                    Data Science
+                </label>
+
+                <label class="interest-item">
+                    <input type="checkbox" value="Web Development">
+                    Web Development
+                </label>
+
+                <label class="interest-item">
+                    <input type="checkbox" value="Mobile Development">
+                    Mobile Development
+                </label>
+
+                <label class="interest-item">
+                    <input type="checkbox" value="Cybersecurity">
+                    Cybersecurity
+                </label>
+
+                <label class="interest-item">
+                    <input type="checkbox" value="Cloud Computing">
+                    Cloud Computing
+                </label>
+
+                <label class="interest-item">
+                    <input type="checkbox" value="UI UX Design">
+                    UI/UX Design
+                </label>
+
+                <label class="interest-item">
+                    <input type="checkbox" value="Product Management">
+                    Product Management
+                </label>
+
+            </div>
+
+            <!-- Target Role -->
+
+            <label>Target Role</label>
+
+            <select id="role" required>
+                <option>AI Engineer</option>
+                <option>Data Scientist</option>
+                <option>Software Developer</option>
+                <option>Cybersecurity Analyst</option>
+                <option>Cloud Engineer</option>
+                <option>Data Analyst</option>
+                <option>DevOps Engineer</option>
+                <option>Product Manager</option>
+                <option>UI/UX Designer</option>
+            </select>
+
+            <!-- Study Hours -->
+
+            <label>Weekly Study Hours</label>
+
+            <input type="number" id="hours" placeholder="10" min="1" max="100" required>
+
+            <!-- Timeline -->
+
+            <label>Target Timeline</label>
+
+            <select id="timeline" required>
+                <option>3 Months</option>
+                <option>6 Months</option>
+                <option>1 Year</option>
+                <option>2 Years</option>
+            </select>
+
+            <button type="submit">
+                Generate Roadmap ✨
+            </button>
+
+        </form>
+
+        <!-- Roadmap Output Section -->
+
+        <section id="roadmap-result">
+
+            <h2>📌 Your Career Roadmap</h2>
+
+            <div class="result-container">
+
+                <p>
+                    Fill the form and click
+                    <strong>Generate Roadmap ✨</strong>
+                    to receive your personalized AI career roadmap.
+                </p>
+
+            </div>
+
+            <button id="download-pdf" class="hidden">
+                📥 Download PDF
+            </button>
+
+        </section>
+
+        <!-- Features -->
+
+        <section class="features-section">
+
+            <h2>⚡ Your AI Career Mentor</h2>
+
+            <p class="features-subtitle">
+                Everything you need to plan, build and accelerate your dream career.
+            </p>
+
+            <div class="feature-grid">
+
+                <div class="feature-card">
+                    <h3>🗺️ Personalized Roadmaps</h3>
+                    <p>
+                        Generate customized learning paths based on your current skills,
+                        interests and target role.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>🚀 Project Recommendations</h3>
+                    <p>
+                        Discover practical projects that align with your career goals.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>📄 Resume Guidance</h3>
+                    <p>
+                        Improve your resume with AI-powered recommendations.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>🎯 Internship Planning</h3>
+                    <p>
+                        Get a structured internship preparation timeline.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>📚 Skill Recommendations</h3>
+                    <p>
+                        Learn the most valuable technologies and tools for your target role.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>📥 PDF Export</h3>
+                    <p>
+                        Download your roadmap as a professional PDF report.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="footer">
+
+            <div class="footer-content">
+
+                <h2>🚀 Career Compass AI</h2>
+
+                <p class="footer-tagline">
+                    An AI-powered career planning platform that generates personalized
+                    roadmaps, project recommendations, skill-gap analysis, and internship
+                    timelines for students.
+                </p>
+
+                <div class="footer-grid">
+
+                    <div class="footer-section">
+                        <h3>✨ Features</h3>
+                        <ul>
+                            <li>Career Roadmaps</li>
+                            <li>Skill Gap Analysis</li>
+                            <li>Project Recommendations</li>
+                            <li>Resume Suggestions</li>
+                            <li>Internship Planning</li>
+                            <li>PDF Export</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>🎯 Career Paths</h3>
+                        <ul>
+                            <li>AI Engineer</li>
+                            <li>Data Scientist</li>
+                            <li>Software Developer</li>
+                            <li>Cybersecurity Analyst</li>
+                            <li>Cloud Engineer</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>🛠 Tech Stack</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Rule-Based Recommendation Engine</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>🌐 Social Links</h3>
+
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/ayush-kumar987" target="_blank">
+                                <img src="img/linkedin.png" alt="LinkedIn">
+                            </a>
+
+                            <a href="https://github.com/Ayush0015090" target="_blank">
+                                <img src="img/Github.png" alt="GitHub">
+                            </a>
+
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sahayush001@gmail.com"
+                                target="_blank">
+                                <img src="img/Gmail.png" alt="Gmail">
+                            </a>
+                        </div>
+                    </div>
+
+                </div> <!-- footer-grid ends -->
+
+                <hr class="footer-divider">
+
+                <p class="footer-bottom">
+                    🚀 Career Compass AI v1.0 • Built by Ayush Kumar • Personalized Career Recommendation Engine • © 2026
+                </p>
+
+            </div> <!-- footer-content ends -->
+
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+        <script src="app.js" defer></script>
+</body>
+
+</html>
