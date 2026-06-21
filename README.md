@@ -1,37 +1,95 @@
-**AI Career Roadmap Generator**
+# 🚀 AI Career Roadmap Generator
 
-🚀 Overview
+An AI-powered web application that helps students and aspiring professionals create a personalized career roadmap based on their skills, interests, academic background, target role, study hours, and timeline.
 
-AI Career Roadmap Generator is an intelligent web-based platform designed to help students and aspiring professionals plan their career journey effectively. The system analyzes a user's current skills, interests, academic background, target role, study hours, and timeline to generate a personalized career roadmap.
+The system performs skill-gap analysis, calculates a career readiness score, recommends projects and certifications, predicts suitable career paths, and generates a structured study plan to help users achieve their career goals efficiently.
 
-Using Artificial Intelligence and Machine Learning techniques, the platform identifies skill gaps, calculates a career readiness score, recommends projects and certifications, and creates a structured study plan to help users achieve their career goals efficiently.
+---
 
-✨ Features
+## 🌟 Highlights
 
-🎯 Skill Gap Analysis
-Compares current skills with industry-required skills.
-Identifies missing and weak areas.
-Provides prioritized learning recommendations.
-📊 Career Readiness Score
-Calculates a readiness percentage.
-Helps users understand their preparedness for a target role.
-Tracks progress toward career goals.
-🛣 Personalized Career Roadmap
-Generates a step-by-step learning path.
-Tailored according to user skills and target role.
-Structured into achievable milestones.
-💡 Project Recommendations
-Suggests beginner, intermediate, and advanced projects.
-Helps users build practical experience and portfolios.
-📜 Certification Suggestions
-Recommends relevant certifications.
-Aligns recommendations with career objectives.
-📅 Weekly Study Plan
-Creates a personalized study schedule.
-Optimizes learning based on available study hours.
+* 🎯 Skill Gap Analysis
+* 📊 Career Readiness Score
+* 🛣 Personalized Career Roadmap
+* 🤖 Machine Learning-Based Career Prediction
+* 💡 Project Recommendations
+* 📜 Certification Suggestions
+* 📅 Weekly Study Plan Generation
+* 📈 Professional Analytics Dashboard
+* 🌐 Responsive Web Interface
 
-🏗 System Architecture
+---
 
+## 🚀 Overview
+
+Choosing the right career path can be challenging due to the rapidly evolving technology landscape and increasing industry demands.
+
+AI Career Roadmap Generator addresses this challenge by analyzing a user's current profile and generating a customized learning roadmap. The system helps users identify missing skills, track career readiness, receive project recommendations, and build a structured learning journey toward their desired career.
+
+The platform is designed for:
+
+* Students preparing for internships and placements
+* Fresh graduates entering the job market
+* Self-learners transitioning into technical roles
+* Professionals looking to upskill and switch careers
+
+---
+
+## ✨ Features
+
+### 🎯 Skill Gap Analysis
+
+* Compares user skills with industry requirements.
+* Identifies missing and weak skill areas.
+* Prioritizes skills based on target role requirements.
+
+### 📊 Career Readiness Score
+
+* Calculates an overall readiness percentage.
+* Helps users evaluate their preparedness.
+* Tracks progress toward career goals.
+
+### 🛣 Personalized Career Roadmap
+
+* Generates a structured learning path.
+* Divides learning into achievable milestones.
+* Adapts recommendations based on user goals.
+
+### 💡 Project Recommendations
+
+* Suggests beginner, intermediate, and advanced projects.
+* Encourages practical skill development.
+* Helps build a strong portfolio.
+
+### 📜 Certification Suggestions
+
+* Recommends relevant certifications.
+* Aligns certifications with career objectives.
+* Prioritizes certifications based on industry relevance.
+
+### 📅 Weekly Study Plan
+
+* Creates a personalized study schedule.
+* Optimizes learning according to available study hours.
+* Balances theory, practice, and project work.
+
+### 🤖 Career Predictor (Machine Learning)
+
+* Predicts suitable career paths based on user skills and interests.
+* Uses machine learning techniques for intelligent recommendations.
+* Supports informed career decision-making.
+
+### 📈 Professional Dashboard
+
+* Displays analytics and insights visually.
+* Provides user-friendly career tracking.
+* Presents roadmap results in an organized format.
+
+---
+
+## 🏗 System Architecture
+
+```text
 User Input
      │
      ▼
@@ -57,20 +115,38 @@ Dashboard & Visualization
      │
      ▼
 Personalized Career Guidance
+```
 
+---
 
-🛠 Technology Stack
-Frontend
-HTML5
-CSS3
-JavaScript
-Python
-Machine Learning & Data Processing
-Scikit-learn
-Pandas
-NumPy
+## 🛠 Technology Stack
 
-📂 Project Structure
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+
+### Backend
+
+* Python
+
+### Machine Learning & Data Processing
+
+* Scikit-learn
+* Pandas
+* NumPy
+
+### Data Visualization
+
+* Matplotlib
+* Custom Dashboard Components
+
+---
+
+## 📂 Project Structure
+
+```text
 AI-Career-Roadmap-Generator/
 │
 ├── static/
@@ -87,71 +163,130 @@ AI-Career-Roadmap-Generator/
 │   ├── roadmap_model.py
 │   └── recommendation_engine.py
 │
+├── dataset/
+│
 ├── app.py
 ├── requirements.txt
-├── README.md
-└── dataset/
+└── README.md
+```
 
-📸 Screenshots
+---
 
-User Input Form
+## ⚙️ Installation
 
-<img width="543" height="661" alt="Screenshot 2026-06-21 045429" src="https://github.com/user-attachments/assets/516127c9-f452-4f86-bd83-eb148c97598e" />
+### 1️⃣ Clone the Repository
 
+```bash
+git clone https://github.com/Ayush0015090/AI-Career-Roadmap-Generator.git
+```
 
+### 2️⃣ Navigate to the Project Directory
 
+```bash
+cd AI-Career-Roadmap-Generator
+```
 
-Skill Gap Analysis
+### 3️⃣ Install Dependencies
 
-<img width="510" height="159" alt="Screenshot 2026-06-21 045214" src="https://github.com/user-attachments/assets/1e0cf189-b0e3-412e-bdb2-954f1fea789f" />
+```bash
+pip install -r requirements.txt
+```
 
+### 4️⃣ Run the Application
 
+```bash
+python app.py
+```
 
-Readiness Score Dashboard
+### 5️⃣ Open in Browser
 
-<img width="438" height="668" alt="Screenshot 2026-06-21 045346" src="https://github.com/user-attachments/assets/509daaee-3889-4aff-9036-c564b030113b" />
+```text
+http://127.0.0.1:5000
+```
 
+---
 
+## 📸 Screenshots
 
-Weekly Study Plan
+### 📝 User Input Form
 
-<img width="552" height="570" alt="Screenshot 2026-06-21 045412" src="https://github.com/user-attachments/assets/d338d97b-d202-4238-a983-e75b50278094" />
+<img width="543" height="661" alt="User Input Form" src="https://github.com/user-attachments/assets/516127c9-f452-4f86-bd83-eb148c97598e" />
 
+### 🎯 Skill Gap Analysis Output
 
-Professional dashboard
+<img width="510" height="159" alt="Skill Gap Analysis" src="https://github.com/user-attachments/assets/1e0cf189-b0e3-412e-bdb2-954f1fea789f" />
 
-<img width="1339" height="616" alt="Screenshot 2026-06-21 045229" src="https://github.com/user-attachments/assets/b4841019-f992-4bcb-aa2a-306710fffb3e" />
+### 📊 Career Readiness Score Dashboard
 
+<img width="438" height="668" alt="Career Readiness Score" src="https://github.com/user-attachments/assets/509daaee-3889-4aff-9036-c564b030113b" />
 
-Career Predictor (Machine Learning)
+### 📅 Personalized Weekly Study Plan
 
-<img width="1014" height="319" alt="Screenshot 2026-06-21 061500" src="https://github.com/user-attachments/assets/6259a652-cd17-4ab0-be84-03cffe1e6f1f" />
+<img width="552" height="570" alt="Weekly Study Plan" src="https://github.com/user-attachments/assets/d338d97b-d202-4238-a983-e75b50278094" />
 
+### 📈 Professional Analytics Dashboard
 
+<img width="1339" height="616" alt="Professional Dashboard" src="https://github.com/user-attachments/assets/b4841019-f992-4bcb-aa2a-306710fffb3e" />
 
-🎯 Use Cases
+### 🤖 AI-Based Career Prediction Module
 
-Students planning their career path.
-Internship preparation.
-Placement and job readiness assessment.
-Skill development tracking.
-Personalized learning recommendations.
+<img width="1014" height="319" alt="Career Predictor" src="https://github.com/user-attachments/assets/6259a652-cd17-4ab0-be84-03cffe1e6f1f" />
 
-🔮 Future Enhancements
+---
 
-Resume Analysis and Optimization.
-AI-powered Interview Preparation.
-Job Recommendation System.
-Real-time Industry Trend Analysis.
-Integration with LinkedIn and Learning Platforms.
-Advanced Analytics Dashboard.
+## 🎯 Use Cases
 
-**👨‍💻 Author**
+* Career Planning for Students
+* Internship Preparation
+* Placement Readiness Assessment
+* Skill Development Tracking
+* Personalized Learning Guidance
+* Career Transition Planning
+* Portfolio Building
 
-Ayush Kumar 
-LinkedIn: www.linkedin.com/in/ayush-kumar987
+---
 
-GitHub: https://github.com/Ayush0015090
+## 🔮 Future Enhancements
 
-**📄 License**
+* Resume Analysis and Optimization
+* AI-Powered Interview Preparation
+* Job Recommendation System
+* Real-Time Industry Trend Analysis
+* LinkedIn Integration
+* Learning Platform Integration
+* Advanced Analytics Dashboard
+* Chatbot-Based Career Assistant
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve the project:
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
+
+---
+
+## 👨‍💻 Author
+
+### Ayush Kumar
+
+🔗 LinkedIn: https://www.linkedin.com/in/ayush-kumar987
+
+💻 GitHub: https://github.com/Ayush0015090
+
+---
+
+## 📄 License
+
 This project is licensed under the MIT License.
+
+---
+
+⭐ If you found this project useful, please consider giving it a star on GitHub!
